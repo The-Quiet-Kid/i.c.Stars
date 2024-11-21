@@ -1,0 +1,68 @@
+.intro {
+    border: ridge #84f6e3 5px;
+    padding-bottom: 70px;
+    width: 1080px; 
+    min-height: 100vh;
+    margin: auto;
+    position: relative;
+    /*        */    
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.409); /*   */
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color:rgb(84, 0, 174);
+    font-size:60px;
+ /*   z-index: -1; */
+    line-height:1;
+    
+    
+}
+
+.intro video {
+    height:250px; /* Adjust video height */
+    width:470px;
+    margin-bottom:10px; /* Reduce space between video and text */
+    object-fit:cover;
+
+}
+
+
+/* settings for the little lighter words */
+.side-bar a{
+    color:rgb(247, 218, 252); 
+    text-align:center;
+    margin-bottom:10px;
+    text-decoration:none;
+
+}
+
+.linkedin-link:hover {
+    color: #01ffea; /* Darker blue on hover */
+    text-decoration: underline; /* Add underline on hover */
+
+    /* gotta remember this one for later */
+}
+
+.linkedin-link:hover {
+    cursor: pointer;
+}
+
+
+
+body {
+    background-color: rgb(0,0,71);
+}
+
+p{
+    font-size:24px;
+    line-height:1.5 ;
+    margin:auto;
+    width:700px;
+    color: rgb(254, 185, 197);
+    text-align:center;
+    text-align: block;
+    /* color of the monologe*/
+}
