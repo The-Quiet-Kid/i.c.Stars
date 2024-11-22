@@ -21,22 +21,31 @@
     
 }
 
+.intro h1 {
+
+    margin-bottom: 30px;
+
+}
+
+
+
 .intro video {
-    height:250px; /* Adjust video height */
-    width:470px;
-    margin-bottom:10px; /* Reduce space between video and text */
+    height: 275px; /* Adjust video height */
+    width: 495px;
+
+    margin-bottom: 10px; /* Reduce space between video and text */
     object-fit:cover;
 
 }
 
 
 /* settings for the little lighter words */
-.side-bar a{
+.side-bar {
     color:rgb(247, 218, 252); 
     text-align:center;
-    margin-bottom:10px;
+    padding: 10px;
     text-decoration:none;
-
+    padding-bottom: 20px;
 }
 
 .linkedin-link:hover {
@@ -63,6 +72,5 @@ p{
     width:700px;
     color: rgb(254, 185, 197);
     text-align:center;
-    text-align: block;
     /* color of the monologe*/
 }
