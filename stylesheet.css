@@ -27,12 +27,9 @@
 
 }
 
-
-
 .intro video {
     height: 275px; /* Adjust video height */
     width: 495px;
-
     margin-bottom: 10px; /* Reduce space between video and text */
     object-fit:cover;
 
@@ -51,14 +48,12 @@
 .linkedin-link:hover {
     color: #01ffea; /* Darker blue on hover */
     text-decoration: underline; /* Add underline on hover */
-
     /* gotta remember this one for later */
 }
 
 .linkedin-link:hover {
     cursor: pointer;
 }
-
 
 
 body {
